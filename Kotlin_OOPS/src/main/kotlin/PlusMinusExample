@@ -1,0 +1,12 @@
+fun main(args: Array<String>) {
+    println("This is plus and minus example")
+    //list
+    val nameList1= mutableListOf<String>("John","Joseph","Julia","Tiger","Mary")
+    println(nameList1)
+    nameList1.add("Tarzan")
+    println(nameList1)
+    var plusList=nameList1+"Steven"
+    println(plusList)
+    var minusList=nameList1 - mutableListOf("John","Joseph")
+    println(minusList)
+}
